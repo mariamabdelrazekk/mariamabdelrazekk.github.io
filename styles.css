@@ -1,0 +1,307 @@
+body {
+  background-color: cornsilk;
+}
+
+h1 {
+  font-size: 35px;
+  color: white;
+  font-family: Times new roman
+}
+
+h2{
+color:black;
+font-size: 30px;
+}
+
+h3{
+color:black;
+font-size: 30px;
+}
+
+h4{
+color:black;
+font-size: 30px;
+}
+
+h6{
+  color:black;
+  font-size:30px;
+}
+
+p1 {
+  font-size: 20px;
+  color: red;
+}
+
+div{
+  font-size: 25px;
+}
+
+button{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+
+
+/* .carousel {
+  position:relative;
+  height: 600px;
+  width:80%;
+  margin:0 auto;
+} */
+
+/* .carousel__track-container {
+  background: lightgreen;
+  padding:10px;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+} */
+
+/* .carousel__track{
+  padding:0;
+  margin:0;
+  list-style:none;
+  position: relative;
+  height:100%;
+  transition: transform 250ms ease-in;
+} */
+
+/* .carousel__slide{
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+.carousel__button{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background:transparent;
+  border:0;
+  cursor:pointer;
+} */
+
+/* .carousel__button--left{
+  left:-40px;
+}
+
+.carousel__button--right{
+right:-40px;
+}
+
+.carousel__button img{
+  width:12px;
+} */
+
+/* .carousel__nav{
+  background:pink;
+  display:flex;
+  justify-content: center;
+  padding:10px 0;
+} */
+
+/* .carousel__indicator{
+  border:0;
+  border-radius:50%;
+  height:15px;
+  width:15px;
+  background:rgba(0,0,0,.3);
+  margin:0 12px;
+
+}
+
+.carousel__indicator.current-slide{
+  background:rgba(0,0,0,.75);
+
+}*/
+
+.MFFVid{
+  width:1100px;
+  height:600px;
+  left:50px;
+  object-fit: cover;
+
+}
+
+.Riptide{
+  width:900px;
+  height:500px;
+  right:0;
+}
+
+.MFF{
+  width:900px;
+  height:500px;
+  left:50px;
+}
+
+.SOP{
+  width:900px;
+  height:500px;
+  left:50px;
+}
+
+.MovingForward{
+  width:900px;
+  height:500px;
+  left:50px;
+}
+
+   .column {
+     float: left;
+     padding: 10px;
+     height: 100vh;
+   }
+
+   .row{
+     width: 100vw;
+   }
+
+   #left {
+     width: 74.5vw;
+   }
+
+   #right {
+     width: 22vw;
+   }
+
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+
+   .accordion__button{
+     display: block;
+     width: 100%;
+     padding: 15px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     background: #333333;
+     color: #FFFFFF;
+     text-align: left;
+     transition: background 0.2s;
+   }
+   .accordion__button::after{
+     content:  '\25be';
+     float: right;
+     transform: scale(1.5);
+   }
+   .accordion__button--active{background: #555555}
+   .accordion__button--active:: active {content:'\25b4'}
+   .accordion__content{
+     overflow:hidden;
+     max height:0;
+     transition: max-height 0.2s;
+     padding: 0 15px;
+     font-family: sans-serif;
+     background: #EEEEEE;
+
+   }
+
+
+   {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Hagar image text*/
+.texthagar {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 0px 25px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  /* text-align: center; */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

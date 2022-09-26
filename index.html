@@ -1,0 +1,105 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>MariamAbdelrazek</title>
+</head>
+<body>
+
+
+<div class= "accordion">
+  <button type="button" class="accordion__button"> <h1><center> Welcome to Mariam Abdelrazek's website </center> </h1></button>
+  <div class="accordion__content">
+
+     <ul>
+    <li><a href="Recentwork.html"> Recent work</li></a>
+      <li><a href="Information.html"> Information </li></a>
+
+    </ul>
+</div>
+</div>
+
+<div class="row">
+  <div class="column" id="left" style="background-color:#aaa; height:100vh;" >
+    <h2> Back From Class </h2>
+    <p5> Diaries of an NYUAD student's life on campus; coming back home from calsses, the gym and outings. </p5>
+
+      <iframe class="MFFVid" src="https://www.youtube.com/embed/rFb6kvR2_ZA"
+      title="YouTube video player" frameborder="0" allow="accelerometer;
+      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+ <center><h4> REVIEWS </h4></center>
+
+ <!-- <div class="container">
+    <div class="image"> -->
+  <center><img data-aos="zoom-in" src="Hagar.jpg" alt="image" height="400px" width="600px" ></center>
+    <!-- </div>
+    <div class="texthagar">
+      <h6> Very realistic. I can attest mariam does change her outfit 8 times a day...</h6>
+    </div>
+  </div> -->
+  <br>
+  <br>
+  <br>
+  <center><img data-aos="zoom-in" src="Megawer.jpg" alt="image" height="400px" width="600px"></center>
+  <br>
+  <br>
+  <br>
+  <center><img data-aos="zoom-in" src="Beeto.jpg" alt="image" height="400px" width="600px"></center>
+  <br>
+  <br>
+  <br>
+  <center><img data-aos="zoom-in" src="Alia.jpg" alt="image" height="400px" width="600px"></center>
+
+
+
+
+
+    </section>
+  </div>
+  <div class="column" id="right" accesskey=""style="background-color:#bbb;">
+    <h2>Contact Details:</h2>
+    <ul>
+  <li>Email:ma6394@nyu.edu</li>
+  <li>Phone:+971501376357</li>
+</ul>
+<!-- <img data-aos="flip-left" src="Hagar.jpg" alt="image" height="150px" width="300px" bottom="0"> -->
+  </div>
+</div>
+
+<script>
+    document.querySelectorAll('.accordion__button').forEach(button =>
+       {
+         button.addEventListener('click',() =>
+         {
+           const accordionContent = button.nextElementSibling;
+           button.classList.toggle('accordion__button--active');
+
+           if (button.classList.contains('accordion__button--active'))
+           {
+             accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+           }
+           else
+           {
+             accordionContent.style.maxHeight = 0;
+           }
+        });
+      });
+
+        AOS.init();
+
+</script>
+</body>
+</html>
