@@ -1,0 +1,206 @@
+body{
+    background-image: url("background.webp");
+    margin: 0 5px;
+    font-family: verdana;
+  }
+  
+  .image {
+    /* The image used */
+    background-image: url("background.webp");
+  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);}
+  
+  .button1 {
+
+    position: absolute;
+    font-family: verdana;
+    margin: 0;
+    top: 50%;
+    right:40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  
+  .button2 {
+    font-family: verdana;
+    position: fixed;
+    /* bottom: 200px;
+    right: 420px; */
+    top: 50%;
+    right:70%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button3 {
+    font-family: verdana;
+    position: fixed;
+    /* bottom: 600px;
+    right: 420px; */
+    top: 50%;
+    right:27%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button4 {
+    font-family: verdana;
+    position: fixed;
+    /* bottom: 200px;
+    right: 420px; */
+    top: 50%;
+    right:70%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button5 {
+    font-family: verdana;
+    position: fixed;
+    /* bottom: 600px;
+    right: 420px; */
+    top: 50%;
+    right:27%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+  .container{
+    text-align:center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    vertical-align: center;
+    position: relative;
+    top: 50%;
+   transform: translateY(+20%);
+  }
+
+  
+  #OneVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  #VideoButton {
+  
+    font-family: verdana;
+    bottom: 200px;
+    right: 1050px;
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  #MenuButton {
+  
+    font-family: verdana;
+    bottom: 200px;
+    right: 500px;
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  #NextButton {
+  
+    font-family: verdana;
+    bottom: 200px;
+    right: 500px;
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  
+  
