@@ -1,12 +1,13 @@
 # mariamabdelrazekk.github.io
 
-#Virtual Reality Game
-##Group Members
-###Mariam
-###Fahad
-###Omar
-###Shamsa
-##Project Concept 
+Virtual Reality Game
+Group Members
+Mariam
+Fahad
+Omar
+Shamsa
+
+Project Concept 
 Instead of studying, a bored college student escapes into the VR world, choosing between an ‘indoor’ or ‘outdoor’ game.
 Through a harmonious intersection of choice and predetermination, we endeavored to embody the idea of the character experiencing
 realities you choose, with our take on the philosophical question: is choice merely an illusion?
@@ -14,7 +15,8 @@ The user makes two fundamental choices for the main character, one with not-so-m
 The other, however, with significant impact, not on whether the game, a metaphor for life, ends but on how it ends. This choice 
 is the game they choose to play. The eventual result (losing) is consistent. However, the methods are different. Can we really change anything?
 Then, we integrated it into a website, giving the audiences buttons to make choices after playing relevant film clips, almost like a video game.
-##Filming & Editing
+
+Filming & Editing
 Over the course of 2 days, we filmed around 30 minutes of footage, using only about 6 minutes for our entire project. 
 Omar, the main character, acted in both real life and the virtual world under Fahad’s direction. Instead of an incredibly 
 cohesive, professional look and narrative, we decided on a more experimental look, with disorienting transitions, VFX, 
@@ -29,7 +31,8 @@ game world, both the filming and editing choices were deliberately choppy and ha
 worry. We embedded a timer on-screen, keeping the audience at the edge of their seats while they wonder about the character’s fate
 in nail biting suspense.
 We used DaVinci resolve for editing.
-##Code and Output
+
+Code and Output
 For the coding, we started out by looking into the layout of the website, and the color scheme we wanted to display to make it stick
 to a theme. After applying the green background, we added buttons for the menu, next and choices. This part is to create a sense of 
 interaction for the users, so that they could move to the next page and also pick out the choices that the video will display. 
@@ -44,7 +47,8 @@ a background and to play automatically but we faced several issues that did not 
 background even though the downloaded versions worked. Facing these hardships with coding made us search for other 
 solutions, and we managed to find it. Nevertheless, we liked the final output where the color scheme, the interaction, 
 and the videos were suited together.
-##Conclusion & Reflection
+
+Conclusion & Reflection
 It was a fruitful experience. We learnt that while improvisation is always an option, rigorous pre-production saves significant 
 time on-set while also enabling you to foresee transitions, cuts, website integration, and potential shots – something the storyboard 
 helped in a lot. Naturally, sound design was complex, as we not only endeavored to accurately capture the universes our film was grounded
