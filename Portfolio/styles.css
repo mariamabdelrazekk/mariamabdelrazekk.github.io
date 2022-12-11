@@ -1,0 +1,275 @@
+body
+{
+background: hsl(0, 0%, 0%); 
+text-align: center;
+}
+
+
+h1 {
+    color:#fff;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: right;
+    padding: 70px 0;
+
+  }
+
+p {
+    color:#fff; 
+    font-size: 3vh;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  /* li {
+    float: left;
+  }
+   */
+
+  
+  /* h1 {
+    font-size: 21px;
+    font-family: 'Bungee', cursive;
+  }
+  h1 #clock {
+    font-size: 36px;
+    display: block;
+    padding: 5px 0px;
+  } */
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  .verticaltext{
+    left: 2vw;
+    margin-top: -6%;
+    writing-mode: vertical-rl;
+   text-orientation: sideways-right;
+  }
+  .CV{
+    width:3%;
+    position: fixed;
+    left: 2vw;
+    bottom: 5vh;
+
+  }
+
+  .paragraph{
+    margin: -8%;
+  }
+  .socials{
+    position: absolute;
+    /* right: 10px; */
+    top: 3%;
+  }
+
+  .socials img{
+    width: 3%;
+  }
+
+
+/* .instagram, {
+    display: flex;
+    width:2%;
+    margin-left: 95%;
+    margin-right: 5%;
+    margin-bottom: -5%;
+} */
+/* .facebook{ */
+    /* display: flex;
+    width:2%; */
+    /* margin-left: 95%;
+    margin-right: 5%;
+    margin-bottom:-2% ; */
+/* } */
+
+/* .linkedin{
+    display: flex;
+    width:2.1%;
+    margin-left: 95%;
+    margin-right: 5%;
+    margin-top:-5% ;
+}
+
+.email{
+    display: flex;
+    width:3.2%;
+    margin-left: 94.35%;
+    margin-right: 5.65%;
+    margin-top:-5.6% ;
+} */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:65%;
+    height: 65%;
+    z-index: -5;
+  }
+
+  .centerimg{
+    display: flex;
+  }
+
+  /* set arrow positioning */
+  .arrow {
+      width: 60px;
+      height: 82px;
+      position: absolute; /* don't forget set container to relative */
+      left: 47.9%;
+      bottom: 5%;
+    z-index:999;
+  }
+  /* set arrow styles */
+  .arrow path {
+      stroke: #ffffff;
+      stroke-width: 2px;
+      fill: transparent;	
+      animation: down 2s infinite;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mariam-desc {
+    margin-left: 68vw;
+    margin-right: 2vw;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+
+  .lamp {
+   background-image: url("lamp.jpg");
+
+   height: 800px; 
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  .campus {
+    background-image: url("campus.jpg");
+    
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+
+  .water {
+    background-image: url("water.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .dahab {
+    background-image: url("dahab.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .film {
+    background-image: url("film.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .drums {
+    background-image: url("drums.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   
+   .alexandria {
+    background-image: url("alexandria.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .plane {
+    background-image: url("plane.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .crochet {
+    background-image: url("crochet.jpg");
+ 
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   a.text1:hover, a.text1:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text2:hover, a.text2:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text3:hover, a.text3:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text4:hover, a.text4:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text5:hover, a.text5:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text6:hover, a.text6:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text7:hover, a.text7:active {font-size: 150%;color: rgb(255, 0, 106);}
+   a.text8:hover, a.text8:active {font-size: 150%;color: rgb(255, 0, 106);}
+
+  /* arrow keyframe animation */
+  @keyframes down{
+  0% { opacity:0 }
+  25% { opacity:1 }
+  75% { opacity:0 }
+  100% { opacity:0 }
+  }
+  /* arrow animation delay */
+  .arrow path.a1{	animation-delay:-1s; }
+  .arrow path.a2{	animation-delay:-.5s; }
+  .arrow path.a3{	animation-delay:0s; }
+
